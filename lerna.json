@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "controllers/*",
+    "core/*",
+    "drivers/*",
+    "endpoints/*",
+    "plugins/*"
+  ],
+  "version": "0.0.0"
+}

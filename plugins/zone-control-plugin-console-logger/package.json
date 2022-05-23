@@ -1,0 +1,28 @@
+{
+  "name": "zone-control-plugin-console-logger",
+  "version": "0.1.0",
+  "description": "Simple Console Logger for Zone Control",
+  "main": "./bin/index.js",
+  "typings": "./bin/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiFiAi/zone-control.git"
+  },
+  "keywords": [
+    "zone-control",
+    "zone-control-plugin"
+  ],
+  "author": "stevenic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HiFiAi/zone-control/issues"
+  },
+  "homepage": "https://github.com/HiFiAi/zone-control#readme",
+  "dependencies": {
+    "zone-control": "0.1.0"
+  }
+}

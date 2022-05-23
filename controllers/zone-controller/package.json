@@ -1,0 +1,30 @@
+{
+  "name": "zone-controller",
+  "version": "0.1.0",
+  "description": "Main Zone Control Controller App",
+  "main": "./bin/app.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "npm run build && node ./bin/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiFiAi/zone-control.git"
+  },
+  "keywords": [
+    "zone-control",
+    "zone-control-endpoint"
+  ],
+  "author": "stevenic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HiFiAi/zone-control/issues"
+  },
+  "homepage": "https://github.com/HiFiAi/zone-control#readme",
+  "dependencies": {
+    "zone-control": "0.1.0",
+    "zone-control-driver-roon": "0.1.0",
+    "zone-control-endpoint-http": "0.1.0",
+    "zone-control-plugin-console-logger": "0.1.0"
+  }
+}
